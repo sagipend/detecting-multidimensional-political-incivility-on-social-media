@@ -9,7 +9,7 @@ An overview of the materials within the repository:
 
 * The file `data/multilabel_incivility_dataset.csv` includes a collection of tweet IDs and their corresponding label used for training and evaluation in the context of multilabel classification (Impoliteness and Intolerance).
 * The file `data/binary_incivility_dataset.csv` includes all tweet IDs labeled with binary classifications (civil/uncivil). It is important to note that this dataset contains more tweets compared to the multilabel dataset due to higher annotator agreement.
-*	Within the `incivility_model_predictions.ipynb` notebook, you will find the code necessary to load the incivility classifier employed in the research paper. This code enables the prediction of scores for new text inputs.
+*	Within the `incivility_model_predictions.ipynb` notebook, you will find the code necessary to load the incivility classifier employed in the research paper. This code can help to produce prediction scores for new text inputs.
 *	`incivility_finetuned_roberta.pt` is the fine-tuned roberta model used in the research.
 
 **_NOTE:_**  Due to the Twitter Terms of Service, we are unable to share the full dataset here. If you are interested in obtaining the full dataset, please contact us at sagipend@gmail.com. We will be happy to assist you further.
